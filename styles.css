@@ -1,0 +1,284 @@
+body {
+    background-color: #f3f4f6;
+    font-family: sans-serif;
+}
+#header-container {
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#header-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #162456;  
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    font-family:sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 150px;
+  margin-top: 30px;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #f3f4f6;
+}
+li a{
+    display: block;
+    padding: 14px 16px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+li{
+    width: 260px;
+    float: left;
+    position: top;
+}
+a{
+    display: block;
+    padding: 8px;
+    
+}
+li a:hover {
+    background-color: #162456;
+    color: white;
+}
+#maip {
+    font-size: 72px;
+    font-weight: bold;
+    color:#162456;
+    text-align: center;
+    margin-top: 50px;
+    width: 790px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    text-align: left;
+}
+#fridgeb {
+    font-family: sans-serif;
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #162456;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+    margin-left: 350px;;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.card-container{
+    display: flex;
+    overflow: hidden;
+    width: 1550px;
+    height: 500px;
+    margin-right: 100px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+}
+.card img {
+    width: 170px;
+    height: 20%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.card h1 {
+    font-weight: 400px;
+    font-size: 30px;
+    color: #162456;
+}
+.card p {
+    font-size: 18px;
+    font-weight: 550;
+    text-align: left;
+    color: #000000;
+    margin: 20px;
+}
+.cardc{
+     background-color: #ffffff;
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.cardc img {
+    width: 170px;
+    height: 20%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.cardc h1 {
+    font-weight: 400px;
+    font-size: 30px;
+    color: #162456;
+}
+.cardc p {
+    font-size: 18px;
+    font-weight: 550;
+    text-align: left;
+    color: #000000;
+    margin: 20px;
+}
+#card2 img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#card3{
+    margin-left: 700px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.submit-form2 {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+}
+#main-content{
+    display: table;
+}
+#FAQ {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    width: 1400px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+#FAQ p {
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+    
+}
+footer {
+    background-color: #162456;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+
+}
+#faq {
+    font-size: 50px;
+    color: #162456;
+    font-weight: bold; 
+}
+.question {
+    font-size: 20px;
+    color: #162456;
+    font-weight: bold;
+}
+.ans {
+    font-size: 18px;
+    color: #000000;
+    margin-left: 30px;
+}
+#submit-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+    padding: 20px;
+}
+#l{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: #162456;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+input[type="text"] {
+    margin-top: 100px;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+#i1{
+  height: 30px;
+}
+#i2{
+  height: 150px;
+}
+button {
+    background-color: #162456;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 250px;
+}
+.cards {
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+    margin-left: 100px;
+}
+#t {
+    
+    font-size: 30px;
+    color: #162456;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#maipp {
+    font-size: 72px;
+    font-weight: bold;
+    color:#162456;
+    text-align: center;
+    margin-top: 50px;
+    width: 790px;
+    margin-left: 50px;
+    font-family: sans-serif;
+ 
+}
+.card-containerd{
+    display: flex;
+    overflow: hidden;
+    width: 1050px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 340px;
+    transition: 0.3s;
+}
+.card:hover
+{ background-color: #c0c1c1;
+    transform: rotate(5deg);
+    transition: 0.3s;
+}
+.cardc:hover
+{ background-color: #c0c1c1;
+    transform: rotate(5deg);
+    transition: 0.3s;
+}

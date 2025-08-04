@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link href="styles.css" rel="stylesheet"> 
+</head>
+<body>
+    <audio id="fridge-door">
+        <source src="fridge-door-closing-98782.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+<script> 
+
+var x = document.getElementById("fridge-door");
+function playaudio(){
+    x.play();
+}
+</script>
+    <div id="header-container">
+    <header>
+        <h1><a id="header-title" href="index.html">Fridge Confessions </a></h1>
+    </header>
+    <nav>
+        <ul>
+          <li><a href="confessions.html">Confessions</a></li>
+          <li><a href="submit.html">Submit Confessions</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="submit.html">Githup Repo</a></li>
+        </ul>
+    </nav>
+    </div>
+    <main >
+       <div class="card-container">
+            <div >
+                <div style="display: table-cell;">
+            <div><h2 id="maip">Deep inside the fridge... every item has a story.</h2></div>
+            <div><a id="fridgeb" href="submit.html">Open the Fridge</a></div>
+             </div>
+         
+        </div>
+         </div>
+    </div>
+        <div class="card-container">
+         <div class="card" onmouseover="playaudio()">
+            <div><img src="pngtree-cute-boiled-eggs-png-image_20391180 (2).png" alt="Cute Boiled Eggs" ></div>
+            <div><h1>Forgotten Egg</h1></div>
+            <div><p>To be honest, I don't remember how long I've been here.</p></div>
+        </div>
+         <div class="card" id="card2" onmouseover="playaudio()">
+            <div><img src="vecteezy_cartoon-character-of-sauce-bottle-with-what-expression_21662486.png" alt="Cute Boiled Eggs" ></div>
+            <div><h1>Ketchup Bottle</h1></div>
+            <div><p>They were so happy when he brought me but suddenly they decided to eat healthy and left me in the fridge for months.</p></div>
+        </div>
+   
+        </div>
+        <div id="FAQ">
+            <div><p id="faq">FAQ</p></div>
+            <div>
+                <p class="question ">Does cheese have feelings?</p>
+                <p class="ans">It's possible, I'm not sure, but what I do know is that she definitely doesn't like to be left to rot.</p>
+                <p class="question ">Where does the food in the fridge disappear?</p>
+                <p class="ans">Either your brother eats it or it gets spoiled and your mom throws it away.</p>
+                <p class="question ">Do tomatoes have feelings?</p>
+                <p class="ans">I told you above that I don't know.</p>             
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Web Page</p>
+    </footer>
+</body>
+</html>
