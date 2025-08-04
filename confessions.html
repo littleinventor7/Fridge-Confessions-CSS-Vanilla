@@ -7,6 +7,16 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+     <audio id="fridge-door">
+        <source src="fridge-door-closing-98782.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+<script> 
+
+var x = document.getElementById("fridge-door");
+function playaudio(){
+    x.play();
+}
     <div id="header-container">
     <header>
         <h1><a id="header-title" href="index.html">Fridge Confessions </a></h1>
@@ -51,4 +61,5 @@
         <p>&copy; 2023 My Web Page</p>
     </footer>
 </body>
+
 </html>
